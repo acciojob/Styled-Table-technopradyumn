@@ -1,15 +1,86 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Student Statistics</title>
+    <style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        thead {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #eaf2ff;
+        }
+
+        tbody tr:hover {
+            background-color: #dbeafe;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1e3a8a;
+        }
+    </style>
 </head>
 <body>
-    <!-- add table here -->
+    <h1>Student Statistics</h1>
 
-        
+    <table>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Maths</th>
+                <th>Science</th>
+                <th>English</th>
+                <th>Total Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rahul</td>
+                <td>92</td>
+                <td>88</td>
+                <td>85</td>
+                <td>265</td>
+            </tr>
+            <tr>
+                <td>Priya</td>
+                <td>95</td>
+                <td>91</td>
+                <td>90</td>
+                <td>276</td>
+            </tr>
+            <tr>
+                <td>Aman</td>
+                <td>78</td>
+                <td>82</td>
+                <td>80</td>
+                <td>240</td>
+            </tr>
+            <tr>
+                <td>Neha</td>
+                <td>89</td>
+                <td>94</td>
+                <td>87</td>
+                <td>270</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
